@@ -1,0 +1,969 @@
+Folder PATH listing
+Volume serial number is 3048-D05F
+C:.
+|   .gitignore
+|   GameFrameworkTS-RunInChrome.bat
+|   GameFrameworkTS.html
+|   Issues.txt
+|   main.js
+|   main.ts
+|   out.txt
+|   tsconfig.json
+|   tsconfig.tsbuildinfo
+|   _Build.bat
+|   _Build.sh
+|   _BuildErrors.txt
+|   _BuildRecord.js
+|   _BuildRecord.ts
+|   _ImportGameFrameworkNamespace.js
+|   _ImportGameFrameworkNamespace.ts
+|   _Imports.js
+|   _Imports.ts
+|   
++---Controls
+|       ControlActionNames.js
+|       ControlActionNames.ts
+|       ControlBase.js
+|       ControlBase.ts
+|       ControlBuilder.js
+|       ControlBuilder.ts
+|       ControlButton.js
+|       ControlButton.ts
+|       ControlCheckbox.js
+|       ControlCheckbox.ts
+|       ControlColorScheme.js
+|       ControlColorScheme.ts
+|       ControlContainer.js
+|       ControlContainer.ts
+|       ControlContainerTransparent.js
+|       ControlContainerTransparent.ts
+|       ControlLabel.js
+|       ControlLabel.ts
+|       Controllable.js
+|       Controllable.ts
+|       ControlList.js
+|       ControlList.ts
+|       ControlNone.js
+|       ControlNone.ts
+|       ControlNumber.js
+|       ControlNumber.ts
+|       ControlScrollbar.js
+|       ControlScrollbar.ts
+|       ControlSelect.js
+|       ControlSelect.ts
+|       ControlSelectOption.js
+|       ControlSelectOption.ts
+|       ControlSoundScheme.js
+|       ControlSoundScheme.ts
+|       ControlStyle.js
+|       ControlStyle.ts
+|       ControlTabbed.js
+|       ControlTabbed.ts
+|       ControlTextarea.js
+|       ControlTextarea.ts
+|       ControlTextBox.js
+|       ControlTextBox.ts
+|       ControlVisual.js
+|       ControlVisual.ts
+|       DataBinding.js
+|       DataBinding.ts
+|       VenueControls.js
+|       VenueControls.ts
+|       VenueMessage.js
+|       VenueMessage.ts
+|       _Imports.js
+|       _Imports.ts
+|       
++---Demo
+|   |   GameDemo.js
+|   |   GameDemo.ts
+|   |   
+|   \---Model
+|       |   WorldDemo.js
+|       |   WorldDemo.ts
+|       |   
+|       +---EntityProperties
+|       |       Goal.js
+|       |       Goal.ts
+|       |       
+|       \---Places
+|               PlaceBuilderDemo.js
+|               PlaceBuilderDemo.ts
+|               PlaceBuilderDemo_Actions.js
+|               PlaceBuilderDemo_Actions.ts
+|               PlaceBuilderDemo_Emplacements.js
+|               PlaceBuilderDemo_Emplacements.ts
+|               PlaceBuilderDemo_Items.js
+|               PlaceBuilderDemo_Items.ts
+|               PlaceBuilderDemo_Movers.js
+|               PlaceBuilderDemo_Movers.ts
+|               PlaceRoom.js
+|               PlaceRoom.ts
+|               
++---Display
+|   |   Color.js
+|   |   Color.ts
+|   |   Colorable.js
+|   |   Colorable.ts
+|   |   Display.js
+|   |   Display.ts
+|   |   Display2D.js
+|   |   Display2D.ts
+|   |   Display3D.js
+|   |   Display3D.ts
+|   |   DisplayFarToNear.js
+|   |   DisplayFarToNear.ts
+|   |   DisplayRecorder.js
+|   |   DisplayRecorder.ts
+|   |   DisplayTest.js
+|   |   DisplayTest.ts
+|   |   Drawable.js
+|   |   Drawable.ts
+|   |   FaceTextured.js
+|   |   FaceTextured.ts
+|   |   Lighting.js
+|   |   Lighting.ts
+|   |   Material.js
+|   |   Material.ts
+|   |   Matrix.js
+|   |   Matrix.ts
+|   |   MeshTextured.js
+|   |   MeshTextured.ts
+|   |   Texture.js
+|   |   Texture.ts
+|   |   VenueFader.js
+|   |   VenueFader.ts
+|   |   VenueLayered.js
+|   |   VenueLayered.ts
+|   |   VertexGroup.js
+|   |   VertexGroup.ts
+|   |   WebGLContext.js
+|   |   WebGLContext.ts
+|   |   _Imports.js
+|   |   _Imports.ts
+|   |   
+|   +---Animation
+|   |       Animatable2.js
+|   |       Animatable2.ts
+|   |       AnimationDefn.js
+|   |       AnimationDefn.ts
+|   |       AnimationDefnGroup.js
+|   |       AnimationDefnGroup.ts
+|   |       AnimationKeyframe.js
+|   |       AnimationKeyframe.ts
+|   |       Transform_Animate.js
+|   |       Transform_Animate.ts
+|   |       
+|   \---Visuals
+|       |   Transform_Colorize.js
+|       |   Transform_Colorize.ts
+|       |   Visual.js
+|       |   Visual.ts
+|       |   VisualAnchor.js
+|       |   VisualAnchor.ts
+|       |   VisualAnchorOrientation.js
+|       |   VisualAnchorOrientation.ts
+|       |   VisualArc.js
+|       |   VisualArc.ts
+|       |   VisualBar.js
+|       |   VisualBar.ts
+|       |   VisualBuffered.js
+|       |   VisualBuffered.ts
+|       |   VisualBuilder.js
+|       |   VisualBuilder.ts
+|       |   VisualCameraProjection.js
+|       |   VisualCameraProjection.ts
+|       |   VisualCircle.js
+|       |   VisualCircle.ts
+|       |   VisualCircleGradient.js
+|       |   VisualCircleGradient.ts
+|       |   VisualControl.js
+|       |   VisualControl.ts
+|       |   VisualCrosshairs.js
+|       |   VisualCrosshairs.ts
+|       |   VisualDeferred.js
+|       |   VisualDeferred.ts
+|       |   VisualDirectional.js
+|       |   VisualDirectional.ts
+|       |   VisualDynamic.js
+|       |   VisualDynamic.ts
+|       |   VisualEllipse.js
+|       |   VisualEllipse.ts
+|       |   VisualErase.js
+|       |   VisualErase.ts
+|       |   VisualFan.js
+|       |   VisualFan.ts
+|       |   VisualGroup.js
+|       |   VisualGroup.ts
+|       |   VisualHidable.js
+|       |   VisualHidable.ts
+|       |   VisualImage.js
+|       |   VisualImage.ts
+|       |   VisualImageFromLibrary.js
+|       |   VisualImageFromLibrary.ts
+|       |   VisualImageImmediate.js
+|       |   VisualImageImmediate.ts
+|       |   VisualImageMock.js
+|       |   VisualImageMock.ts
+|       |   VisualImageScaled.js
+|       |   VisualImageScaled.ts
+|       |   VisualImageScaledPartial.js
+|       |   VisualImageScaledPartial.ts
+|       |   VisualInvisible.js
+|       |   VisualInvisible.ts
+|       |   VisualJump2D.js
+|       |   VisualJump2D.ts
+|       |   VisualLine.js
+|       |   VisualLine.ts
+|       |   VisualLineStatic.js
+|       |   VisualLineStatic.ts
+|       |   VisualMap.js
+|       |   VisualMap.ts
+|       |   VisualMesh.js
+|       |   VisualMesh.ts
+|       |   VisualNone.js
+|       |   VisualNone.ts
+|       |   VisualOffset.js
+|       |   VisualOffset.ts
+|       |   VisualParticles.js
+|       |   VisualParticles.ts
+|       |   VisualPath.js
+|       |   VisualPath.ts
+|       |   VisualPolars.js
+|       |   VisualPolars.ts
+|       |   VisualPolygon.js
+|       |   VisualPolygon.ts
+|       |   VisualPolygonPreoriented.js
+|       |   VisualPolygonPreoriented.ts
+|       |   VisualRectangle.js
+|       |   VisualRectangle.ts
+|       |   VisualRepeating.js
+|       |   VisualRepeating.ts
+|       |   VisualRotate.js
+|       |   VisualRotate.ts
+|       |   VisualSelect.js
+|       |   VisualSelect.ts
+|       |   VisualStack.js
+|       |   VisualStack.ts
+|       |   VisualText.js
+|       |   VisualText.ts
+|       |   VisualTransform.js
+|       |   VisualTransform.ts
+|       |   VisualTransformEntityPos.js
+|       |   VisualTransformEntityPos.ts
+|       |   
+|       \---Animation
+|               VisualAnimation.js
+|               VisualAnimation.ts
+|               
++---Geometry
+|   |   Camera.js
+|   |   Camera.ts
+|   |   Coords.js
+|   |   Coords.ts
+|   |   Direction.js
+|   |   Direction.ts
+|   |   Disposition.js
+|   |   Disposition.ts
+|   |   Orientation.js
+|   |   Orientation.ts
+|   |   Polar.js
+|   |   Polar.ts
+|   |   Quaternion.js
+|   |   Quaternion.ts
+|   |   RangeExtent.js
+|   |   RangeExtent.ts
+|   |   Rotation.js
+|   |   Rotation.ts
+|   |   _Imports.js
+|   |   _Imports.ts
+|   |   
+|   +---Collisions
+|   |       Collision.js
+|   |       Collision.ts
+|   |       CollisionHelper.js
+|   |       CollisionHelper.ts
+|   |       CollisionTracker.js
+|   |       CollisionTracker.ts
+|   |       MapCellCollidable.js
+|   |       MapCellCollidable.ts
+|   |       
+|   +---Constraints
+|   |       Constraint.js
+|   |       Constraint.ts
+|   |       Constraint_AttachToEntityWithId.js
+|   |       Constraint_AttachToEntityWithId.ts
+|   |       Constraint_AttachToEntityWithName.js
+|   |       Constraint_AttachToEntityWithName.ts
+|   |       Constraint_Conditional.js
+|   |       Constraint_Conditional.ts
+|   |       Constraint_ContainInBox.js
+|   |       Constraint_ContainInBox.ts
+|   |       Constraint_ContainInHemispace.js
+|   |       Constraint_ContainInHemispace.ts
+|   |       Constraint_FrictionDry.js
+|   |       Constraint_FrictionDry.ts
+|   |       Constraint_FrictionXY.js
+|   |       Constraint_FrictionXY.ts
+|   |       Constraint_Gravity.js
+|   |       Constraint_Gravity.ts
+|   |       Constraint_Multiple.js
+|   |       Constraint_Multiple.ts
+|   |       Constraint_Offset.js
+|   |       Constraint_OrientToward.js
+|   |       Constraint_OrientToward.ts
+|   |       Constraint_SpeedMaxXY.js
+|   |       Constraint_SpeedMaxXY.ts
+|   |       Constraint_Stop.js
+|   |       Constraint_Stop.ts
+|   |       Constraint_StopBelowSpeedMin.js
+|   |       Constraint_StopBelowSpeedMin.ts
+|   |       Constraint_Switchable.js
+|   |       Constraint_Switchable.ts
+|   |       Constraint_Transform.js
+|   |       Constraint_Transform.ts
+|   |       Constraint_TrimToPlaceSize.js
+|   |       Constraint_TrimToPlaceSize.ts
+|   |       Constraint_TrimToPlaceSizeXY.js
+|   |       Constraint_TrimToPlaceSizeXY.ts
+|   |       Constraint_WrapToPlaceSize.js
+|   |       Constraint_WrapToPlaceSize.ts
+|   |       Constraint_WrapToPlaceSizeX.js
+|   |       Constraint_WrapToPlaceSizeX.ts
+|   |       Constraint_WrapToPlaceSizeXTrimY.js
+|   |       Constraint_WrapToPlaceSizeXTrimY.ts
+|   |       
+|   +---Landscape
+|   |       Landscape.js
+|   |       Landscape.ts
+|   |       
+|   +---Network
+|   |       Network.js
+|   |       Network.ts
+|   |       
+|   +---Shapes
+|   |   |   Arc.js
+|   |   |   Arc.ts
+|   |   |   Box.js
+|   |   |   Box.ts
+|   |   |   BoxRotated.js
+|   |   |   BoxRotated.ts
+|   |   |   Cylinder.js
+|   |   |   Cylinder.ts
+|   |   |   Edge.js
+|   |   |   Edge.ts
+|   |   |   Face.js
+|   |   |   Face.ts
+|   |   |   Hemispace.js
+|   |   |   Hemispace.ts
+|   |   |   Path.js
+|   |   |   Path.ts
+|   |   |   PathBuilder.js
+|   |   |   PathBuilder.ts
+|   |   |   Plane.js
+|   |   |   Plane.ts
+|   |   |   Point.js
+|   |   |   Point.ts
+|   |   |   Ray.js
+|   |   |   Ray.ts
+|   |   |   ShapeBase.js
+|   |   |   ShapeBase.ts
+|   |   |   ShapeContainer.js
+|   |   |   ShapeContainer.ts
+|   |   |   ShapeGroupAll.js
+|   |   |   ShapeGroupAll.ts
+|   |   |   ShapeGroupAny.js
+|   |   |   ShapeGroupAny.ts
+|   |   |   ShapeHelper.js
+|   |   |   ShapeHelper.ts
+|   |   |   ShapeInverse.js
+|   |   |   ShapeInverse.ts
+|   |   |   ShapeNone.js
+|   |   |   ShapeNone.ts
+|   |   |   Shell.js
+|   |   |   Shell.ts
+|   |   |   Sphere.js
+|   |   |   Sphere.ts
+|   |   |   Wedge.js
+|   |   |   Wedge.ts
+|   |   |   
+|   |   +---Maps
+|   |   |       MapCell.js
+|   |   |       MapCell.ts
+|   |   |       MapLocated.js
+|   |   |       MapLocated.ts
+|   |   |       MapOfCells.js
+|   |   |       MapOfCells.ts
+|   |   |       
+|   |   +---Maze
+|   |   |       Maze.js
+|   |   |       Maze.ts
+|   |   |       MazeCell.js
+|   |   |       MazeCell.ts
+|   |   |       MazeCellNetwork.js
+|   |   |       MazeCellNetwork.ts
+|   |   |       
+|   |   \---Meshes
+|   |           Mesh.js
+|   |           Mesh.ts
+|   |           MeshBuilder.js
+|   |           MeshBuilder.ts
+|   |           
+|   \---Transforms
+|       |   Transform.js
+|       |   Transform.ts
+|       |   Transformable.js
+|       |   Transformable.ts
+|       |   Transforms.js
+|       |   Transforms.ts
+|       |   Transform_Camera.js
+|       |   Transform_Camera.ts
+|       |   Transform_DimensionsSwap.js
+|       |   Transform_DimensionsSwap.ts
+|       |   Transform_Dynamic.js
+|       |   Transform_Dynamic.ts
+|       |   Transform_Interpolatable.js
+|       |   Transform_Interpolatable.ts
+|       |   Transform_Locate.js
+|       |   Transform_Locate.ts
+|       |   Transform_Multiple.js
+|       |   Transform_Multiple.ts
+|       |   Transform_None.js
+|       |   Transform_None.ts
+|       |   Transform_Orient.js
+|       |   Transform_Orient.ts
+|       |   Transform_OrientForCamera.js
+|       |   Transform_OrientForCamera.ts
+|       |   Transform_OrientRDF.js
+|       |   Transform_OrientRDF.ts
+|       |   Transform_Overwrite.js
+|       |   Transform_Overwrite.ts
+|       |   Transform_Perspective.js
+|       |   Transform_Perspective.ts
+|       |   Transform_Rotate2D.js
+|       |   Transform_Rotate2D.ts
+|       |   Transform_RotateRight.js
+|       |   Transform_RotateRight.ts
+|       |   Transform_Scale.js
+|       |   Transform_Scale.ts
+|       |   Transform_Translate.js
+|       |   Transform_Translate.ts
+|       |   Transform_TranslateInvert.js
+|       |   Transform_TranslateInvert.ts
+|       |   
+|       \---Bones
+|               Bone.js
+|               Bone.ts
+|               BoneInfluence.js
+|               BoneInfluence.ts
+|               Skeleton.js
+|               Skeleton.ts
+|               SkeletonHelper.js
+|               SkeletonHelper.ts
+|               Transform_BonePose.js
+|               Transform_BonePose.ts
+|               Transform_MeshPoseWithSkeleton.js
+|               Transform_MeshPoseWithSkeleton.ts
+|               
++---Helpers
+|       ArrayHelper.js
+|       ArrayHelper.ts
+|       ByteHelper.js
+|       ByteHelper.ts
+|       NumberHelper.js
+|       NumberHelper.ts
+|       StringHelper.js
+|       StringHelper.ts
+|       _Imports.js
+|       _Imports.ts
+|       
++---Input
+|       ActionToInputsMapping.js
+|       ActionToInputsMapping.ts
+|       Input.js
+|       Input.ts
+|       InputHelper.js
+|       InputHelper.ts
+|       UserInputListener.js
+|       UserInputListener.ts
+|       VenueInputCapture.js
+|       VenueInputCapture.ts
+|       _Imports.js
+|       _Imports.ts
+|       
++---Media
+|   |   BinaryFile.js
+|   |   BinaryFile.ts
+|   |   Font.js
+|   |   Font.ts
+|   |   FontNameAndHeight.js
+|   |   FontNameAndHeight.ts
+|   |   Image.js
+|   |   Image.ts
+|   |   ImageBuilder.js
+|   |   ImageBuilder.ts
+|   |   MediaLibrary.js
+|   |   MediaLibrary.ts
+|   |   VenueVideo.js
+|   |   VenueVideo.ts
+|   |   Video.js
+|   |   Video.ts
+|   |   VideoHelper.js
+|   |   VideoHelper.ts
+|   |   _Imports.js
+|   |   _Imports.ts
+|   |   
+|   +---Audio
+|   |   |   Audible.js
+|   |   |   Audible.ts
+|   |   |   Sound.js
+|   |   |   Sound.ts
+|   |   |   SoundFromAudioContext.js
+|   |   |   SoundFromAudioContext.ts
+|   |   |   SoundFromFile.js
+|   |   |   SoundFromFile.ts
+|   |   |   SoundFromFileMod.js
+|   |   |   SoundFromFileMod.ts
+|   |   |   SoundFromLibrary.js
+|   |   |   SoundFromLibrary.ts
+|   |   |   SoundHelper.js
+|   |   |   SoundHelper.ts
+|   |   |   SoundNone.js
+|   |   |   SoundNone.ts
+|   |   |   VisualSound.js
+|   |   |   VisualSound.ts
+|   |   |   
+|   |   \---MusicTracker
+|   |       |   .gitignore
+|   |       |   License.txt
+|   |       |   Readme.md
+|   |       |   Screenshot.png
+|   |       |   
+|   |       +---Media
+|   |       |       Greensleeves.json
+|   |       |       Pluck.wav
+|   |       |       
+|   |       \---Source
+|   |           |   main.js
+|   |           |   main.ts
+|   |           |   MusicTracker.html
+|   |           |   tsconfig.json
+|   |           |   
+|   |           +---Extensions
+|   |           |       ArrayHelper.js
+|   |           |       ArrayHelper.ts
+|   |           |       StringHelper.js
+|   |           |       StringHelper.ts
+|   |           |       
+|   |           +---FileFormats
+|   |           |       Base64Encoder.js
+|   |           |       Base64Encoder.ts
+|   |           |       ByteConverter.js
+|   |           |       ByteConverter.ts
+|   |           |       ByteStreamBigEndian.js
+|   |           |       ByteStreamBigEndian.ts
+|   |           |       ByteStreamLittleEndian.js
+|   |           |       ByteStreamLittleEndian.ts
+|   |           |       Constants.js
+|   |           |       Constants.ts
+|   |           |       FrequencyAnalysis.js
+|   |           |       FrequencyAnalysis.ts
+|   |           |       ModFile.js
+|   |           |       ModFile.ts
+|   |           |       Sound.js
+|   |           |       Sound.ts
+|   |           |       WavFile.js
+|   |           |       WavFile.ts
+|   |           |       
+|   |           +---Model
+|   |           |       Instrument.js
+|   |           |       Instrument.ts
+|   |           |       Note.js
+|   |           |       Note.ts
+|   |           |       Octave.js
+|   |           |       Octave.ts
+|   |           |       Pitch.js
+|   |           |       Pitch.ts
+|   |           |       Sequence.js
+|   |           |       Sequence.ts
+|   |           |       Song.js
+|   |           |       Song.ts
+|   |           |       Track.js
+|   |           |       Track.ts
+|   |           |       Tracker.js
+|   |           |       Tracker.ts
+|   |           |       
+|   |           +---SoundSources
+|   |           |       SoundSource.js
+|   |           |       SoundSource.ts
+|   |           |       SoundSourceChild.js
+|   |           |       SoundSourceChild.ts
+|   |           |       SoundSourceType.js
+|   |           |       SoundSourceType.ts
+|   |           |       SoundSource_Clip.js
+|   |           |       SoundSource_Clip.ts
+|   |           |       SoundSource_Envelope.js
+|   |           |       SoundSource_Envelope.ts
+|   |           |       SoundSource_Harmonics.js
+|   |           |       SoundSource_Harmonics.ts
+|   |           |       SoundSource_Mix.js
+|   |           |       SoundSource_Mix.ts
+|   |           |       SoundSource_Noise.js
+|   |           |       SoundSource_Noise.ts
+|   |           |       SoundSource_PitchChange.js
+|   |           |       SoundSource_PitchChange.ts
+|   |           |       SoundSource_Sawtooth.js
+|   |           |       SoundSource_Sawtooth.ts
+|   |           |       SoundSource_Scale.js
+|   |           |       SoundSource_Scale.ts
+|   |           |       SoundSource_Silence.js
+|   |           |       SoundSource_Silence.ts
+|   |           |       SoundSource_Sine.js
+|   |           |       SoundSource_Sine.ts
+|   |           |       SoundSource_Square.js
+|   |           |       SoundSource_Square.ts
+|   |           |       SoundSource_Triangle.js
+|   |           |       SoundSource_Triangle.ts
+|   |           |       SoundSource_Vibrato.js
+|   |           |       SoundSource_Vibrato.ts
+|   |           |       SoundSource_WavFile.js
+|   |           |       SoundSource_WavFile.ts
+|   |           |       
+|   |           +---Tests
+|   |           |       Test.html
+|   |           |       test.js
+|   |           |       
+|   |           \---Utility
+|   |                   FileHelper.js
+|   |                   FileHelper.ts
+|   |                   RationalNumber.js
+|   |                   RationalNumber.ts
+|   |                   
+|   \---Text
+|           TextString.js
+|           TextString.ts
+|           
++---Model
+|   |   Clonable.js
+|   |   Clonable.ts
+|   |   Entity.js
+|   |   Entity.ts
+|   |   EntityBuilder.js
+|   |   EntityBuilder.ts
+|   |   EntityGenerator.js
+|   |   EntityGenerator.ts
+|   |   EntityProperty.js
+|   |   EntityProperty.ts
+|   |   EntityPropertyFromValue.js
+|   |   EntityPropertyFromValue.ts
+|   |   Loadable.js
+|   |   Loadable.ts
+|   |   Modellable.js
+|   |   Modellable.ts
+|   |   Namable.js
+|   |   Namable.ts
+|   |   NamableProperty.js
+|   |   NamableProperty.ts
+|   |   Playable.js
+|   |   Playable.ts
+|   |   Routable.js
+|   |   Routable.ts
+|   |   Selectable.js
+|   |   Selectable.ts
+|   |   Selector.js
+|   |   Selector.ts
+|   |   Trigger.js
+|   |   Trigger.ts
+|   |   Triggerable.js
+|   |   Triggerable.ts
+|   |   Universe.js
+|   |   Universe.ts
+|   |   UniverseWorldPlaceEntities.js
+|   |   UniverseWorldPlaceEntities.ts
+|   |   Venue.js
+|   |   Venue.ts
+|   |   VenueDrawnOnlyWhenUpdated.js
+|   |   VenueDrawnOnlyWhenUpdated.ts
+|   |   VenueWorld.js
+|   |   VenueWorld.ts
+|   |   World.js
+|   |   World.ts
+|   |   WorldCreator.js
+|   |   WorldCreator.ts
+|   |   WorldDefn.js
+|   |   WorldDefn.ts
+|   |   _Imports.js
+|   |   _Imports.ts
+|   |   
+|   +---Actors
+|   |       Action.js
+|   |       Action.ts
+|   |       Activity.js
+|   |       Activity.ts
+|   |       ActivityDefn.js
+|   |       ActivityDefn.ts
+|   |       Actor.js
+|   |       Actor.ts
+|   |       
+|   +---Combat
+|   |       Armor.js
+|   |       Armor.ts
+|   |       Damage.js
+|   |       Damage.ts
+|   |       Damager.js
+|   |       Damager.ts
+|   |       DamageType.js
+|   |       DamageType.ts
+|   |       Enemy.js
+|   |       Enemy.ts
+|   |       Killable.js
+|   |       Killable.ts
+|   |       ProjectileGenerator.js
+|   |       ProjectileGenerator.ts
+|   |       Weapon.js
+|   |       Weapon.ts
+|   |       
+|   +---Effects
+|   |       Effect.js
+|   |       Effect.ts
+|   |       Effectable.js
+|   |       Effectable.ts
+|   |       
+|   +---Items
+|   |   |   Item.js
+|   |   |   Item.ts
+|   |   |   ItemBarterer.js
+|   |   |   ItemBarterer.ts
+|   |   |   ItemContainer.js
+|   |   |   ItemContainer.ts
+|   |   |   ItemDefn.js
+|   |   |   ItemDefn.ts
+|   |   |   ItemHolder.js
+|   |   |   ItemHolder.ts
+|   |   |   ItemStore.js
+|   |   |   ItemStore.ts
+|   |   |   
+|   |   +---Crafting
+|   |   |       CraftingRecipe.js
+|   |   |       CraftingRecipe.ts
+|   |   |       ItemCrafter.js
+|   |   |       ItemCrafter.ts
+|   |   |       
+|   |   \---Equipment
+|   |           EquipmentSocket.js
+|   |           EquipmentSocket.ts
+|   |           EquipmentSocketDefn.js
+|   |           EquipmentSocketDefn.ts
+|   |           EquipmentSocketDefnGroup.js
+|   |           EquipmentSocketDefnGroup.ts
+|   |           EquipmentSocketGroup.js
+|   |           EquipmentSocketGroup.ts
+|   |           EquipmentUser.js
+|   |           EquipmentUser.ts
+|   |           Equippable.js
+|   |           Equippable.ts
+|   |           ItemCategory.js
+|   |           ItemCategory.ts
+|   |           
+|   +---Journal
+|   |       Journal.js
+|   |       Journal.ts
+|   |       JournalEntry.js
+|   |       JournalEntry.ts
+|   |       JournalKeeper.js
+|   |       JournalKeeper.ts
+|   |       
+|   +---Maps
+|   |       Terrain.js
+|   |       Terrain.ts
+|   |       
+|   +---Mortality
+|   |       Ephemeral.js
+|   |       Ephemeral.ts
+|   |       Phased.js
+|   |       Phased.ts
+|   |       Starvable.js
+|   |       Starvable.ts
+|   |       Tirable.js
+|   |       Tirable.ts
+|   |       
+|   +---Perception
+|   |       Perceptible.js
+|   |       Perceptible.ts
+|   |       Perceptor.js
+|   |       Perceptor.ts
+|   |       
+|   +---Physics
+|   |       Boundable.js
+|   |       Boundable.ts
+|   |       Collidable.js
+|   |       Collidable.ts
+|   |       Constrainable.js
+|   |       Constrainable.ts
+|   |       ForceField.js
+|   |       ForceField.ts
+|   |       Locatable.js
+|   |       Locatable.ts
+|   |       Movable.js
+|   |       Movable.ts
+|   |       Obstacle.js
+|   |       Obstacle.ts
+|   |       Portal.js
+|   |       Portal.ts
+|   |       Traversable.js
+|   |       Traversable.ts
+|   |       Vehicle.js
+|   |       Vehicle.ts
+|   |       
+|   +---Places
+|   |       Place.js
+|   |       Place.ts
+|   |       PlaceBase.js
+|   |       PlaceBase.ts
+|   |       PlaceBuilderDemo.js
+|   |       PlaceBuilderDemo_Actions.js
+|   |       PlaceBuilderDemo_Emplacements.js
+|   |       PlaceBuilderDemo_Movers.js
+|   |       PlaceDefn.js
+|   |       PlaceDefn.ts
+|   |       PlaceZoned.js
+|   |       PlaceZoned.ts
+|   |       
+|   +---Skills
+|   |       Skill.js
+|   |       Skill.ts
+|   |       SkillLearner.js
+|   |       SkillLearner.ts
+|   |       
+|   +---Talk
+|   |       ConversationDefn.js
+|   |       ConversationDefn.ts
+|   |       ConversationRun.js
+|   |       ConversationRun.ts
+|   |       ConversationScope.js
+|   |       ConversationScope.ts
+|   |       Talker.js
+|   |       Talker.ts
+|   |       TalkNode.js
+|   |       TalkNode.ts
+|   |       TalkNodeDefn.js
+|   |       TalkNodeDefn.ts
+|   |       WordBubble.js
+|   |       WordBubble.ts
+|   |       
+|   +---Time
+|   |       Idleable.js
+|   |       Idleable.ts
+|   |       Recurrent.js
+|   |       Recurrent.ts
+|   |       
+|   \---Usables
+|           Device.js
+|           Device.ts
+|           Usable.js
+|           Usable.ts
+|           
++---Profiles
+|       Profile.js
+|       Profile.ts
+|       SaveState.js
+|       SaveState.ts
+|       _Imports.js
+|       _Imports.ts
+|       
++---Storage
+|   |   FileHelper.js
+|   |   FileHelper.ts
+|   |   Serializer.js
+|   |   Serializer.ts
+|   |   StorageHelper.js
+|   |   StorageHelper.ts
+|   |   VenueFileUpload.js
+|   |   VenueFileUpload.ts
+|   |   _Imports.js
+|   |   _Imports.ts
+|   |   
+|   +---Compressor
+|   |       BitStream.js
+|   |       BitStream.ts
+|   |       ByteStream.js
+|   |       ByteStream.ts
+|   |       ByteStreamFromBytes.js
+|   |       ByteStreamFromBytes.ts
+|   |       ByteStreamFromString.js
+|   |       ByteStreamFromString.ts
+|   |       CompressorLZW.js
+|   |       CompressorLZW.ts
+|   |       
+|   \---TarFiles
+|           TarFile.js
+|           TarFile.ts
+|           TarFileEntry.js
+|           TarFileEntry.ts
+|           TarFileEntryHeader.js
+|           TarFileEntryHeader.ts
+|           TarFileTypeFlag.js
+|           TarFileTypeFlag.ts
+|           
++---Tests
+|       Assert.js
+|       Assert.ts
+|       TestFixture.js
+|       TestFixture.ts
+|       TestSuite.js
+|       TestSuite.ts
+|       _Imports.js
+|       _Imports.ts
+|       
+\---Utility
+        Base64Encoder.js
+        Base64Encoder.ts
+        ClonableHelper.js
+        ClonableHelper.ts
+        DateTime.js
+        DateTime.ts
+        Debug.js
+        Debug.ts
+        DiceRoll.js
+        DiceRoll.ts
+        Equatable.js
+        Equatable.ts
+        IDHelper.js
+        IDHelper.ts
+        Interpolatable.js
+        Interpolatable.ts
+        InterpolationMode.js
+        InterpolationMode.ts
+        Loadable.js
+        Loadable.ts
+        PlatformHelper.js
+        PlatformHelper.ts
+        Randomizer.js
+        Randomizer.ts
+        RandomizerLCG.js
+        RandomizerLCG.ts
+        RandomizerSystem.js
+        RandomizerSystem.ts
+        Reference.js
+        Reference.ts
+        Script.js
+        Script.ts
+        Stack.js
+        Stack.ts
+        Stopwatch.js
+        Stopwatch.ts
+        TimerHelper.js
+        TimerHelper.ts
+        Treeable.js
+        Treeable.ts
+        TreeHelper.js
+        TreeHelper.ts
+        URLParser.js
+        URLParser.ts
+        ValueBreakGroup.js
+        ValueBreakGroup.ts
+        VenueTask.js
+        VenueTask.ts
+        _Imports.js
+        _Imports.ts
+        
