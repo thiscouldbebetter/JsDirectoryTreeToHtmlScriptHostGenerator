@@ -88,19 +88,27 @@ class DirectoryTreeNode
 
 				if (indentsOnThisLine > treeNodeCurrentDepth)
 				{
+					// Subdirectory.
 					treeNodeCurrent.childAdd(treeNodeForLine);
-					treeNodeCurrent = treeNodeForLine;
 				}
-				else if (indentsOnThisLine < treeNodeCurrentDepth)
+				else if (indentsOnThisLine == treeNodeCurrentDepth)
 				{
+					// Sibling directory.
 					treeNodeCurrent = treeNodeCurrent.parent;
 					treeNodeCurrent.childAdd(treeNodeForLine);
 				}
-				else
+				else if (indentsOnThisLine < treeNodeCurrentDepth)
 				{
-					// Former directory was empty?
+					var depthToRise =
+						treeNodeCurrentDepth - indentsOnThisLine + 1;
+					for (var d = 0; d < depthToRise; d++)
+					{
+						treeNodeCurrent = treeNodeCurrent.parent;
+					}
 					treeNodeCurrent.childAdd(treeNodeForLine);
 				}
+				treeNodeCurrent = treeNodeForLine;
+
 			}
 		}
 
@@ -115,6 +123,8 @@ class DirectoryTreeNode
 	childAdd(child)
 	{
 		this.children.push(child);
+		child.parentSet(this);
+		return this;
 	}
 
 	depth()
@@ -181,8 +191,6 @@ class DirectoryTreeNode
 
 	toStringTypeScriptImportClassesFromNamespace()
 	{
-		var directoryPath = this.directoryPath();
-
 		var filesAsImportLines =
 			this.filesInDirectoryNames.map
 			(
