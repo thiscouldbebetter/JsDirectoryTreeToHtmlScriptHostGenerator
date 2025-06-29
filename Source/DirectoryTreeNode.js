@@ -173,7 +173,7 @@ class DirectoryTreeNode
 				x =>
 					"<script type='text/javascript'"
 					+ " src='" + directoryPath + x + "'"
-					+ " />"
+					+ " ></script>"
 			);
 		var childrenAsHtmlStrings =
 			this.children.map(x => x.toStringHtmlScriptElements() );
